@@ -4,15 +4,17 @@ import com.getarrarys.employeemanager.exception.UserNotFoundException;
 import com.getarrarys.employeemanager.model.Employee;
 import com.getarrarys.employeemanager.repo.EmployeeRepo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.UUID;
 
-public class EmployService {
+@Service
+public class EmployeeService {
     private final EmployeeRepo employeeRepo;
 
     @Autowired
-    public EmployService(EmployeeRepo employeeRepo){
+    public EmployeeService(EmployeeRepo employeeRepo){
         this.employeeRepo = employeeRepo;
     }
     public Employee addEmployee(Employee employee){
@@ -35,6 +37,6 @@ public class EmployService {
 
     public void deleteEmployee(Long id){
         employeeRepo.deleteEmployeeById(id);
-
     }
+
 }
