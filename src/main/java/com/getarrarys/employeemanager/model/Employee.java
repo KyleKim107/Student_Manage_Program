@@ -11,18 +11,18 @@ public class Employee implements Serializable { // send the object to others as 
     private Long id;
     private String name;
     private String email;
-    private String jobTitle;
+    private String jobtitle;
     private String phone;
     private String imageUrl;
     private String employeeCode;
 
     public Employee(){}
 
-    public Employee(Long id, String name, String email, String jobTitle, String phone, String imageUrl, String employeeCode) {
+    public Employee(Long id, String name, String email, String jobtitle, String phone, String imageUrl, String employeeCode) {
         this.id = id;
         this.name = name;
         this.email = email;
-        this.jobTitle = jobTitle;
+        this.jobtitle = jobtitle;
         this.phone = phone;
         this.imageUrl = imageUrl;
         this.employeeCode = employeeCode;
@@ -52,12 +52,12 @@ public class Employee implements Serializable { // send the object to others as 
         this.email = email;
     }
 
-    public String getJobTitle() {
-        return jobTitle;
+    public String getJobtitle() {
+        return jobtitle;
     }
 
-    public void setJobTitle(String jobTitle) {
-        this.jobTitle = jobTitle;
+    public void setJobtitle(String jobTitle) {
+        this.jobtitle = jobTitle;
     }
 
     public String getPhone() {
@@ -90,7 +90,7 @@ public class Employee implements Serializable { // send the object to others as 
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
-                ", jobtitle='" + jobTitle + '\'' +
+                ", jobtitle='" + jobtitle + '\'' +
                 ", phone='" + phone + '\'' +
                 ", imageUrl='" + imageUrl + '\'' +
                 ", employeeCode='" + employeeCode + '\'' +
