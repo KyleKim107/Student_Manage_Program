@@ -1,4 +1,4 @@
-package com.getarrarys.employeemanager;
+package com.getarrarys.employeemanager.resource;
 
 
 import com.getarrarys.employeemanager.model.Employee;
