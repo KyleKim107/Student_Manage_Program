@@ -38,13 +38,13 @@ public class EmployeeResource {// employeeService에 있던 메소드들을 기�
         return new ResponseEntity<>(newEmployee ,HttpStatus.CREATED);
     }
 
-    @PostMapping("/update")
+    @PutMapping("/update")
     public ResponseEntity<Employee> updateEmployee(@RequestBody Employee employee){
         Employee updateEmployee = employeeService.updateEmployee(employee);
         return new ResponseEntity<>(updateEmployee ,HttpStatus.CREATED);
     }
 
-    @PostMapping("/update/{id}")
+    @DeleteMapping ("/delete/{id}")
     public ResponseEntity<Employee> deleteEmployee(@RequestBody Long id){
         employeeService.deleteEmployee(id);
         return new ResponseEntity<>(HttpStatus.CREATED);
