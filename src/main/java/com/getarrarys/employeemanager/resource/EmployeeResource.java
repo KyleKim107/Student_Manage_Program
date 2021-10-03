@@ -20,6 +20,11 @@ public class EmployeeResource {// employeeService에 있던 메소드들을 기�
         this.employeeService = employeeService;
     }
 
+    @GetMapping("/")
+    public String login(){
+        return "LOGIN SUCCESSFUL";
+    }
+
     @GetMapping("/all")
     public ResponseEntity<List<Employee>> getAllEmployees(){
         List<Employee> employees = employeeService.findAllEmployee();

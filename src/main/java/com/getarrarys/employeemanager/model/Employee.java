@@ -15,6 +15,8 @@ public class Employee implements Serializable { // send the object to others as 
     private String phone;
     private String imageUrl;
     private String employeeCode;
+    private String employer;
+    private String memo;
 
     public Employee(){}
 
@@ -84,6 +86,22 @@ public class Employee implements Serializable { // send the object to others as 
         this.employeeCode = employeeCode;
     }
 
+    public String getEmployer() {
+        return employer;
+    }
+
+    public void setEmployer(String employer) {
+        this.employer = employer;
+    }
+
+    public String getMemo() {
+        return memo;
+    }
+
+    public void setMemo(String memo) {
+        this.memo = memo;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
@@ -94,6 +112,8 @@ public class Employee implements Serializable { // send the object to others as 
                 ", phone='" + phone + '\'' +
                 ", imageUrl='" + imageUrl + '\'' +
                 ", employeeCode='" + employeeCode + '\'' +
+                ", employer='" + employer + '\'' +
+                ", memo='" + memo + '\'' +
                 '}';
     }
 }
