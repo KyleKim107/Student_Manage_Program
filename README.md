@@ -1,4 +1,4 @@
-# Employees Manamgement App
+# Student Manamgement App
 
 ## I. Description
 This web application allows you managing brief overview of your organization, or temperary team member in a single page.
@@ -6,11 +6,11 @@ This web application allows you managing brief overview of your organization, or
 ## II. How to Run
 
 ### Back-End
-- Clone backend repo [https://github.com/KyleKim107/Employee_Manage_Program]
+- Clone backend repo [https://github.com/KyleKim107/Student_Manage_Program]
 -  Runs Main method of EmployeeManagerApplication Class
 
 ### Front-End
-- Clone front repo [https://github.com/KyleKim107/Employee-Manage-FE]
+- Clone front repo [https://github.com/KyleKim107/Student-Manage-FE]
 - Type "ng serve" in cmd to run front page.
 
 
@@ -23,28 +23,28 @@ There are a couple of functions you can try in this app.
 
 I. Overview
 
-![Overview](images/2021-09-22-13-39-42.png)
+![Overview](2021-10-04-00-51-29.png)
 
-II. Add New Employee
+II. Add New Student
 
-![Add](images/2021-09-22-13-26-26.png)
+![Add](2021-10-04-00-58-12.png)
 
-II. Modify Exist Employee
+II. Modify Exist Student
 
-![Modify](images/2021-09-22-13-44-30.png)
+![Modify](2021-10-04-00-59-20.png)
 
-II. Delete Exist Employee
+II. Delete Exist Student
 
 - Delete Control Module
-![Delete](images/2021-09-22-13-45-41.png)
+![Delete](2021-10-04-01-00-07.png)
 
 - Dashboard After Delete
-![Dashboard After Delete](images/2021-09-22-13-46-07.png)
+![Dashboard After Delete](2021-10-04-01-00-42.png)
 
-III. Search Employee
+III. Search Student
 
 - Search My Name
-![Search by Name](images/2021-09-22-13-51-05.png)
+![Search by Name](2021-10-04-01-01-24.png)
 
 - Search by Email Domain EX) @gmail.com
-![Search by Email Domain](images/2021-09-22-13-51-55.png)
+![Search by Email Domain](2021-10-04-01-02-33.png)
