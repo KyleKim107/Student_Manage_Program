@@ -23,28 +23,28 @@ There are a couple of functions you can try in this app.
 
 I. Overview
 
-![Overview](2021-10-04-00-51-29.png)
+![Overview](images/2021-10-04-00-51-29.png)
 
 II. Add New Student
 
-![Add](2021-10-04-00-58-12.png)
+![Add](images/2021-10-04-00-58-12.png)
 
 II. Modify Exist Student
 
-![Modify](2021-10-04-00-59-20.png)
+![Modify](images/2021-10-04-00-59-20.png)
 
 II. Delete Exist Student
 
 - Delete Control Module
-![Delete](2021-10-04-01-00-07.png)
+![Delete](images/2021-10-04-01-00-07.png)
 
 - Dashboard After Delete
-![Dashboard After Delete](2021-10-04-01-00-42.png)
+![Dashboard After Delete](images/2021-10-04-01-00-42.png)
 
 III. Search Student
 
 - Search My Name
-![Search by Name](2021-10-04-01-01-24.png)
+![Search by Name](images/2021-10-04-01-01-24.png)
 
 - Search by Email Domain EX) @gmail.com
-![Search by Email Domain](2021-10-04-01-02-33.png)
+![Search by Email Domain](images/2021-10-04-01-02-33.png)
